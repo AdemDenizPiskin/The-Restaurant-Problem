@@ -14,7 +14,7 @@ $p= \frac{g_{avg}}{g_{max}}$
 The arrival times of the customers are poisson distrubted. This is often an idealized assumption made to model arrival of indepent events such as the arrival of busses. 
 
 ## Restaurant Selection
-The model for the selection of the customer group is a simple model. Every restaurant has a point system I call desirability, each restaurant has a base desirability $k_i$, $i$ subscripts represents the $i$th restaurant, these can also encode the initial desirability. An interesting case is when $k_i=k_0$ for all $i$, meaning that all restaurants are equal. The desirability of restaurant increases with customers in a linear fashion as given in the equation below. Here $c_i$ is the number of customers, $\mu_i$ is the proportianlity constant representing how the popularity effects the restuarant (this is mostly taken constant $\mu_i=\mu$) and $d_i$ is the desirability of the $i$th restaurnt. 
+The model for the selection of the customer group is a simple model. Every restaurant has a point system I call desirability, each restaurant has a base desirability $k_i$, $i$ subscripts represents the $i$'th restaurant, these can also encode the initial desirability. An interesting case is when $k_i=k_0$ for all $i$, meaning that all restaurants are equal. The desirability of restaurant increases with customers in a linear fashion as given in the equation below. Here $c_i$ is the number of customers, $\mu_i$ is the proportianlity constant representing how the popularity effects the restuarant (this is mostly taken constant $\mu_i=\mu$) and $d_i$ is the desirability of the $i$'th restaurant. 
 
 $d_i (t) = k_i+\mu_i \cdot c_i (t)$
 
